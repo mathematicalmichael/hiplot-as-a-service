@@ -1,5 +1,11 @@
 build:
 	docker build -t hiplot-service .
 
-run:
-	docker run --rm -ti -p 8081:8081 hiplot-service
+
+run: serve
+
+serve:
+	docker run --rm -ti \
+	--name hiplot \
+	-p 1234:8081 \
+	hiplot-service
