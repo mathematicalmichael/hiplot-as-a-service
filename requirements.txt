@@ -1,2 +1,4 @@
-gunicorn
+bs4
+jinja2
 gevent
+gunicorn
