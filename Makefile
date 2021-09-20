@@ -9,3 +9,6 @@ serve:
 	--name hiplot \
 	-p 1234:8081 \
 	hiplot-service
+
+test:
+	./invoke_local.sh test.csv
