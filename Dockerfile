@@ -13,6 +13,6 @@ COPY fetchers.py ./
 COPY plot.py /app/
 COPY start_hiplot_server.sh /app/
 
-EXPOSE 8081
+EXPOSE 8000
 CMD ["./start_hiplot_server.sh"]
 
